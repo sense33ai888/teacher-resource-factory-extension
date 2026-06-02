@@ -1,0 +1,189 @@
+{
+  "fixture_id": "matariki-year7-photo-led-foundation-deck",
+  "about": "matariki-photo-led-template",
+  "title": "Matariki",
+  "year_level": "Year 7",
+  "template_lane": "photo_led_lesson_deck_v1",
+  "source_grounding_status": "grounded",
+  "classroom_review_status": "pending_local_context_review",
+  "footer_label": "Matariki · photo_led_lesson_deck_v1 fixture",
+  "assets": {
+    "cover": {
+      "path": "assets/matariki/pleiades-cluster-public-domain-1600.jpg",
+      "label": "Pleiades star cluster",
+      "credit": "NASA/JPL-Caltech via Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:The_Pleiades_Cluster.jpg"
+    },
+    "detail": {
+      "path": "assets/matariki/pleiades-merope-nasa-1600.jpg",
+      "label": "Interstellar cloud in the Pleiades",
+      "credit": "NASA Science",
+      "source": "https://science.nasa.gov/image-detail/interstellar_cloud_in_pleiades/"
+    }
+  },
+  "sources": [
+    { "label": "Te Papa: What and who is Matariki?", "url": "https://www.tepapa.govt.nz/discover-collections/read-watch-play/matariki-maori-new-year/what-and-who-matariki" },
+    { "label": "Te Papa: The stars of Matariki", "url": "https://www.tepapa.govt.nz/discover-collections/read-watch-play/matariki-maori-new-year/what-and-who-matariki/stars-matariki" },
+    { "label": "Te Papa: Matariki regional variations", "url": "https://www.tepapa.govt.nz/discover-collections/read-watch-play/matariki-maori-new-year/matariki-regional-variations" },
+    { "label": "Mānawatia a Matariki: About", "url": "https://www.matariki.com/about" },
+    { "label": "NZ Government: Public holidays and anniversary dates", "url": "https://www.govt.nz/browse/work/public-holidays-and-work/public-holidays-and-anniversary-dates/" },
+    { "label": "NASA: Interstellar Cloud in the Pleiades", "url": "https://science.nasa.gov/image-detail/interstellar_cloud_in_pleiades/" },
+    { "label": "NASA: Images and Media Guidelines", "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/" }
+  ],
+  "review_notes": [
+    "Add local iwi guidance where possible.",
+    "Do not present one Matariki model as universal for all iwi and regions.",
+    "No AI-generated cultural imagery was used."
+  ],
+  "slides": [
+    {
+      "role": "cover",
+      "component": "full_bleed_photo_cover",
+      "kicker": "Year 7 foundation deck",
+      "title": "Matariki",
+      "subtitle": "The Māori New Year: a time to look to the sky, remember people, gather together, and look ahead.",
+      "badges": ["sky", "whānau", "memory", "future"],
+      "image": "cover"
+    },
+    {
+      "role": "learning_goal",
+      "component": "learning_map_three_cards",
+      "kicker": "Learning map",
+      "title": "Connect a star cluster to people, place, and time",
+      "cards": [
+        { "title": "Notice", "text": "What is Matariki in the night sky?" },
+        { "title": "Explain", "text": "Why does its winter rising matter?" },
+        { "title": "Connect", "text": "How do remembrance, celebration, and hopes shape the New Year?" }
+      ],
+      "callout": "Learning intention: explain why Matariki is important and describe at least two ways it connects people with the natural world."
+    },
+    {
+      "role": "definition",
+      "component": "source_cited_definition",
+      "kicker": "What is it?",
+      "title": "A star cluster, not a single star",
+      "lead": "Matariki is the Māori name for the Pleiades star cluster, which is associated with the Māori New Year in Aotearoa New Zealand.",
+      "bullets": [
+        { "title": "Astronomy", "text": "The cluster is also known as Messier 45." },
+        { "title": "Season", "text": "Its winter return marks a new cycle for many Māori." },
+        { "title": "Culture", "text": "Traditions vary by iwi and region." }
+      ],
+      "source_note": "Sources: Te Papa Matariki pages."
+    },
+    {
+      "role": "photo_explain",
+      "component": "split_text_photo",
+      "kicker": "Real sky evidence",
+      "title": "The cluster is visible as a group of stars",
+      "lead": "The Pleiades/Matariki cluster contains many stars, though only a handful are visible without a telescope.",
+      "image": "detail",
+      "caption": "NASA image detail: interstellar cloud in the Pleiades.",
+      "source_note": "Source: NASA Science image detail page."
+    },
+    {
+      "role": "key_ideas",
+      "component": "principle_cards",
+      "kicker": "Three principles",
+      "title": "Remember, celebrate, look ahead",
+      "cards": [
+        { "title": "Remembrance", "text": "Honour those who have died since the last rising of Matariki." },
+        { "title": "Celebration", "text": "Gather with others and give thanks for what we have." },
+        { "title": "Future", "text": "Set hopes and intentions for the new year." }
+      ],
+      "note": "Classroom wording: What do people remember? What do people celebrate? What do people hope for?",
+      "source_note": "Source: Mānawatia a Matariki About page."
+    },
+    {
+      "role": "relationship_map",
+      "component": "relationship_map",
+      "kicker": "Sky to life",
+      "title": "The cluster becomes a map of relationships",
+      "lead": "The stars invite learners to connect astronomy with water, weather, food, memory, wellbeing, and future hopes.",
+      "center": { "title": "Matariki", "subtitle": "wellbeing" },
+      "nodes": [
+        { "title": "memory", "text": "past" },
+        { "title": "ocean", "text": "Waitā" },
+        { "title": "rain", "text": "Waipuna" },
+        { "title": "hopes", "text": "Hiwa" },
+        { "title": "fresh water", "text": "Waitī" },
+        { "title": "food", "text": "Tupu" }
+      ]
+    },
+    {
+      "role": "detail_grid",
+      "component": "card_grid",
+      "kicker": "Ngā whetū o Matariki",
+      "title": "One common learning model names nine stars",
+      "lead": "Each whetū can connect to a part of life.",
+      "items": [
+        { "title": "Matariki", "text": "wellbeing, gathering, reflection" },
+        { "title": "Pōhutukawa", "text": "those who have passed on" },
+        { "title": "Tupuānuku", "text": "food grown in the earth" },
+        { "title": "Tupuārangi", "text": "food from trees and sky" },
+        { "title": "Waitī", "text": "fresh water and life within it" },
+        { "title": "Waitā", "text": "ocean and life within it" },
+        { "title": "Waipunarangi", "text": "rain" },
+        { "title": "Ururangi", "text": "winds" },
+        { "title": "Hiwa-i-te-rangi", "text": "hopes for the year ahead" }
+      ],
+      "source_note": "Source: Te Papa “The stars of Matariki”."
+    },
+    {
+      "role": "nuance_or_model_warning",
+      "component": "two_column_note",
+      "kicker": "Respectful nuance",
+      "title": "Not every community marks Matariki in the same way",
+      "lead": "Some iwi traditions focus on Puanga or Puaka rather than Matariki. Some traditions describe seven visible stars; others teach nine.",
+      "cards": [
+        { "title": "Matariki", "text": "The Pleiades cluster is used by many Māori communities to mark the New Year." },
+        { "title": "Puanga / Puaka", "text": "Some communities use another star, known elsewhere as Rigel, as the seasonal marker." }
+      ],
+      "callout": "Teacher move: ask, “What is the local iwi context for our place?”",
+      "source_note": "Source: Te Papa regional variations page."
+    },
+    {
+      "role": "activity",
+      "component": "activity_three_steps",
+      "kicker": "Class activity",
+      "title": "Make meaning from the cluster",
+      "steps": [
+        { "label": "Observe", "title": "Look carefully", "text": "What do you notice in the real star-cluster photo?" },
+        { "label": "Connect", "title": "Choose one whetū", "text": "How does its meaning connect to your community or environment?" },
+        { "label": "Explain", "title": "Use because", "text": "“Matariki matters because...” Include sky evidence and cultural meaning." }
+      ],
+      "note": "Optional: students create a one-page star card with name, meaning, picture, and one respectful question."
+    },
+    {
+      "role": "teacher_note",
+      "component": "two_column_note",
+      "kicker": "Teacher review",
+      "title": "Use care when teaching cultural knowledge",
+      "lead": "This deck is an introduction, not a replacement for local voices. Treat iwi variation as part of the learning, not as an error.",
+      "cards": [
+        { "title": "Keep", "text": "Keep sources visible and add local context where possible." },
+        { "title": "Avoid", "text": "Avoid claiming one universal version for all iwi and regions." }
+      ],
+      "callout": "Classroom review status: pending local-context review."
+    },
+    {
+      "role": "exit_ticket",
+      "component": "exit_ticket",
+      "kicker": "Exit ticket",
+      "title": "Show your understanding",
+      "prompts": [
+        "Matariki is...",
+        "One connection is...",
+        "One respectful question I still have is..."
+      ],
+      "challenge": "Challenge: explain how one event can be both astronomical and cultural."
+    },
+    {
+      "role": "sources",
+      "component": "source_list_slide",
+      "kicker": "Source grounding",
+      "title": "Sources used",
+      "note": "Image policy: real astronomy visuals only; no AI-generated cultural imagery. Cultural detail should be reviewed against local iwi context before classroom use."
+    }
+  ]
+}
+

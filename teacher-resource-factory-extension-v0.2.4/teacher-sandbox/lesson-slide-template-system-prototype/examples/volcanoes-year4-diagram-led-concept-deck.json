@@ -1,0 +1,154 @@
+{
+  "fixture_id": "volcanoes-year4-diagram-led-concept-deck",
+  "about": "volcanoes-diagram-led-template",
+  "title": "Volcanoes",
+  "year_level": "Year 4",
+  "template_lane": "diagram_led_concept_deck_v1",
+  "source_grounding_status": "grounded",
+  "classroom_review_status": "pending_teacher_review",
+  "footer_label": "Volcanoes · diagram_led_concept_deck_v1 fixture",
+  "diagram_data_path": "../../owned-skills/skills/teacher-resource-pack-generator/data/volcano-labelled-diagram.json",
+  "sources": [
+    { "label": "USGS Volcano Hazards Program", "url": "https://www.usgs.gov/programs/VHP" },
+    { "label": "USGS: About Volcanoes", "url": "https://www.usgs.gov/programs/VHP/about-volcanoes" },
+    { "label": "USGS: Understanding volcanic hazards can save lives", "url": "https://www.usgs.gov/programs/VHP/understanding-volcanic-hazards-can-save-lives" },
+    { "label": "USGS: Comprehensive monitoring provides timely warnings of volcano reawakening", "url": "https://www.usgs.gov/programs/VHP/comprehensive-monitoring-provides-timely-warnings-volcano-reawakening" },
+    { "label": "USGS Volcano Hazards Program: Education", "url": "https://www.usgs.gov/programs/VHP/education" }
+  ],
+  "review_notes": [
+    "This is a simplified Year 4 model of a volcano cross-section.",
+    "Teacher should review local hazard examples before discussing local risk.",
+    "Diagram is deterministic SVG, not AI-generated imagery."
+  ],
+  "slides": [
+    {
+      "role": "cover",
+      "component": "diagram_cover",
+      "kicker": "Year 4 science concept deck",
+      "title": "Volcanoes",
+      "subtitle": "How magma, vents, craters, lava, and ash connect in an eruption.",
+      "badges": ["magma", "vent", "crater", "lava", "ash"]
+    },
+    {
+      "role": "learning_goal",
+      "component": "learning_map",
+      "kicker": "Learning map",
+      "title": "Understand the parts of a volcano and what happens during an eruption",
+      "cards": [
+        { "title": "Name", "text": "Identify key volcano parts on a labelled diagram." },
+        { "title": "Explain", "text": "Describe how magma can move upward through a vent." },
+        { "title": "Connect", "text": "Link eruption materials to hazards such as lava and ash." }
+      ],
+      "callout": "Learning intention: use a diagram to explain how a volcano eruption happens."
+    },
+    {
+      "role": "definition",
+      "component": "concept_definition",
+      "kicker": "Core idea",
+      "title": "A volcano is an opening where hot material can reach the surface",
+      "lead": "Volcanoes form where molten rock, gases, and fragments can move from inside Earth to the surface.",
+      "bullets": [
+        { "title": "Magma", "text": "Molten rock below the surface." },
+        { "title": "Lava", "text": "Magma that has reached the surface." },
+        { "title": "Ash", "text": "Tiny fragments of rock and glass from explosive eruptions." }
+      ],
+      "source_note": "Source-grounded summary from USGS Volcano Hazards Program pages."
+    },
+    {
+      "role": "labelled_diagram",
+      "component": "labelled_diagram",
+      "kicker": "Diagram anchor",
+      "title": "Volcano cross-section",
+      "source_note": "Deterministic SVG based on common volcano structure labels."
+    },
+    {
+      "role": "process",
+      "component": "process_steps",
+      "kicker": "Process",
+      "title": "From magma to eruption",
+      "steps": [
+        { "title": "Pressure builds", "text": "Magma and gases collect below the volcano." },
+        { "title": "Magma rises", "text": "Molten rock moves upward through the main vent." },
+        { "title": "Material erupts", "text": "Lava, ash, and gases can come out through the crater or side vents." }
+      ]
+    },
+    {
+      "role": "vocabulary",
+      "component": "vocabulary_grid",
+      "kicker": "Vocabulary",
+      "title": "Words that unlock the diagram",
+      "items": [
+        { "title": "Crater", "text": "Opening near the top of a volcano." },
+        { "title": "Main vent", "text": "Pathway that magma travels through." },
+        { "title": "Magma chamber", "text": "Area where magma can collect below the surface." },
+        { "title": "Lava flow", "text": "Molten rock moving across the surface." },
+        { "title": "Ash cloud", "text": "Fine fragments carried upward during some eruptions." },
+        { "title": "Hazard", "text": "Something that can cause harm and needs planning." }
+      ]
+    },
+    {
+      "role": "cause_effect",
+      "component": "cause_effect",
+      "kicker": "Cause and effect",
+      "title": "Different eruption materials create different hazards",
+      "pairs": [
+        { "cause": "Lava flows", "effect": "Can bury or burn things in their path." },
+        { "cause": "Ash clouds", "effect": "Can affect air, water, engines, roofs, and breathing." },
+        { "cause": "Volcanic gases", "effect": "Can be dangerous near the volcano." }
+      ],
+      "source_note": "Hazard examples should be reviewed with local context if relevant."
+    },
+    {
+      "role": "misconceptions",
+      "component": "two_column_note",
+      "kicker": "Model warning",
+      "title": "A classroom diagram is useful, but simplified",
+      "lead": "Real volcanoes have different shapes, sizes, eruption styles, and hazards. This diagram shows common parts, not every volcano.",
+      "cards": [
+        { "title": "Useful", "text": "The model helps us see hidden parts inside a volcano." },
+        { "title": "Limited", "text": "It does not show the full range of volcano types or eruption behavior." }
+      ]
+    },
+    {
+      "role": "guided_activity",
+      "component": "activity_steps",
+      "kicker": "Class activity",
+      "title": "Read the diagram like a scientist",
+      "steps": [
+        { "label": "Locate", "title": "Find the parts", "text": "Point to the crater, main vent, magma chamber, lava flow, and ash cloud." },
+        { "label": "Trace", "title": "Follow the path", "text": "Trace how magma could move from below Earth to the surface." },
+        { "label": "Explain", "title": "Use because", "text": "Explain one hazard using a cause-and-effect sentence." }
+      ]
+    },
+    {
+      "role": "quick_check",
+      "component": "quick_check",
+      "kicker": "Quick check",
+      "title": "Check the concept",
+      "questions": [
+        { "q": "What is the difference between magma and lava?", "a": "Magma is below the surface; lava is at the surface." },
+        { "q": "Which part is the main pathway upward?", "a": "The main vent." },
+        { "q": "Why can ash be a hazard?", "a": "It can affect air, water, machines, buildings, and breathing." }
+      ]
+    },
+    {
+      "role": "exit_ticket",
+      "component": "exit_ticket",
+      "kicker": "Exit ticket",
+      "title": "Show your understanding",
+      "prompts": [
+        "One volcano part I can identify is...",
+        "Magma becomes lava when...",
+        "One question I still have about volcanoes is..."
+      ],
+      "challenge": "Challenge: explain why diagrams help us understand things we cannot easily see."
+    },
+    {
+      "role": "sources",
+      "component": "source_list",
+      "kicker": "Source grounding",
+      "title": "Sources used",
+      "note": "Image policy: deterministic SVG diagram; no AI-generated factual volcano image."
+    }
+  ]
+}

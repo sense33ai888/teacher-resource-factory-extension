@@ -1,0 +1,21 @@
+{
+  "template_id": "output_structure.lesson_slide.diagram_led_concept_deck_v1",
+  "output_type": "lesson_slide_deck",
+  "slide_count": 12,
+  "lesson_shape": "diagram_led_concept_explanation",
+  "slides": [
+    { "slide": 1, "role": "cover", "component": "diagram_cover" },
+    { "slide": 2, "role": "learning_goal", "component": "learning_map" },
+    { "slide": 3, "role": "definition", "component": "concept_definition" },
+    { "slide": 4, "role": "labelled_diagram", "component": "labelled_diagram" },
+    { "slide": 5, "role": "process", "component": "process_steps" },
+    { "slide": 6, "role": "vocabulary", "component": "vocabulary_grid" },
+    { "slide": 7, "role": "cause_effect", "component": "cause_effect" },
+    { "slide": 8, "role": "misconceptions", "component": "two_column_note" },
+    { "slide": 9, "role": "guided_activity", "component": "activity_steps" },
+    { "slide": 10, "role": "quick_check", "component": "quick_check" },
+    { "slide": 11, "role": "exit_ticket", "component": "exit_ticket" },
+    { "slide": 12, "role": "sources", "component": "source_list" }
+  ]
+}
+

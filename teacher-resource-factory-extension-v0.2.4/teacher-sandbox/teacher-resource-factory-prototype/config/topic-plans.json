@@ -1,0 +1,205 @@
+{
+  "version": "0.2.4",
+  "default_plan_id": null,
+  "registry_layers": [
+    "topic_metadata",
+    "source_strategy",
+    "lane_hints",
+    "visual_availability",
+    "output_bundle_policy"
+  ],
+  "plans": [
+    {
+      "id": "matariki",
+      "canonical_topic": "Matariki",
+      "match": ["matariki"],
+      "subject": "social_studies",
+      "default_goal": "Students understand what Matariki is and why it matters.",
+      "lesson_slide_template_lane": "photo_led_lesson_deck_v1",
+      "fixture_file": "matariki-year7-photo-led-foundation-deck.json",
+      "source_grounding_status": "grounded",
+      "classroom_review_status": "pending_local_context_review",
+      "asset_policy": "trusted_public_photo_first",
+      "diagram_type": "relationship_map",
+      "routing_reason": "Matariki is currently configured as a photo-led cultural/factual pack with explicit local-context review.",
+      "sources": [
+        ["Te Papa: What and who is Matariki?", "https://www.tepapa.govt.nz/discover-collections/read-watch-play/matariki-maori-new-year/what-and-who-matariki"],
+        ["Te Papa: The stars of Matariki", "https://www.tepapa.govt.nz/discover-collections/read-watch-play/matariki-maori-new-year/what-and-who-matariki/stars-matariki"],
+        ["Manawatia a Matariki: About", "https://www.matariki.com/about"],
+        ["NZ Government: Public holidays and anniversary dates", "https://www.govt.nz/browse/work/public-holidays-and-work/public-holidays-and-anniversary-dates/"],
+        ["NASA: Interstellar Cloud in the Pleiades", "https://science.nasa.gov/image-detail/interstellar_cloud_in_pleiades/"]
+      ],
+      "vocab": ["Matariki", "whetu", "whanau", "remembrance", "celebration", "future"],
+      "worksheet_questions": [
+        ["What is Matariki?", "The Maori name for the Pleiades star cluster and a time associated with the Maori New Year."],
+        ["Name one principle of Matariki.", "Remembrance, celebration, or looking to the future."],
+        ["Why should local context be checked?", "Traditions vary by iwi and region."],
+        ["Write one respectful question you still have.", "Answers vary."]
+      ],
+      "review_notes": ["Local iwi context should be checked before classroom use.", "Do not present one model as universal."]
+    },
+    {
+      "id": "solar-system",
+      "canonical_topic": "Solar System",
+      "match": ["solar system", "planets"],
+      "subject": "science",
+      "default_goal": "Students understand how the Solar System is organised around the Sun.",
+      "lesson_slide_template_lane": "photo_led_lesson_deck_v1",
+      "fixture_file": "solar-system-year5-photo-led-deck.json",
+      "source_grounding_status": "grounded",
+      "classroom_review_status": "pending_teacher_review",
+      "asset_policy": "trusted_public_photo_first",
+      "diagram_type": "system_orbit_model",
+      "routing_reason": "Solar System is configured as a photo-led factual science pack using trusted public space imagery.",
+      "sources": [
+        ["NASA Science: Solar System", "https://science.nasa.gov/solar-system/"],
+        ["NASA Science: Planets", "https://science.nasa.gov/solar-system/planets/"],
+        ["NASA Science: Solar System Model", "https://science.nasa.gov/resource/solar-system-model/"],
+        ["NASA Science: Solar System Family Portrait", "https://science.nasa.gov/resource/solar-system-family-portrait/"],
+        ["NASA: Images and Media Guidelines", "https://www.nasa.gov/nasa-brand-center/images-and-media/"]
+      ],
+      "vocab": ["Sun", "planet", "orbit", "gravity", "model", "scale"],
+      "worksheet_questions": [
+        ["What is at the centre of the Solar System?", "The Sun."],
+        ["How many major planets orbit the Sun?", "Eight."],
+        ["Why are classroom Solar System diagrams often not to scale?", "The distances are too large compared with the planet sizes."],
+        ["Name one smaller object type in the Solar System.", "Moons, asteroids, comets, dwarf planets, or smaller space material."]
+      ],
+      "review_notes": ["Explain when a visual is a model or composite.", "Distances and sizes are simplified for Year 5."]
+    },
+    {
+      "id": "volcanoes",
+      "canonical_topic": "Volcanoes",
+      "match": ["volcano", "volcanoes"],
+      "subject": "science",
+      "default_goal": "Students understand the core ideas of Volcanoes.",
+      "lesson_slide_template_lane": "diagram_led_concept_deck_v1",
+      "fixture_file": "volcanoes-year4-diagram-led-concept-deck.json",
+      "source_grounding_status": "grounded",
+      "classroom_review_status": "pending_teacher_review",
+      "asset_policy": "deterministic_diagram_first",
+      "diagram_type": "labelled_volcano_cross_section",
+      "diagram_data_file": "volcano-labelled-diagram.json",
+      "diagram_title": "Volcano cross-section",
+      "routing_reason": "Volcanoes is configured as a labelled cross-section topic, so the diagram-led lane is preferred.",
+      "sources": [
+        ["USGS Volcano Hazards Program", "https://www.usgs.gov/programs/VHP"],
+        ["USGS: About Volcanoes", "https://www.usgs.gov/programs/VHP/about-volcanoes"],
+        ["USGS: Understanding volcanic hazards can save lives", "https://www.usgs.gov/programs/VHP/understanding-volcanic-hazards-can-save-lives"],
+        ["USGS: Comprehensive monitoring provides timely warnings of volcano reawakening", "https://www.usgs.gov/programs/VHP/comprehensive-monitoring-provides-timely-warnings-volcano-reawakening"],
+        ["USGS Volcano Hazards Program: Education", "https://www.usgs.gov/programs/VHP/education"]
+      ],
+      "vocab": ["magma", "lava", "crater", "main vent", "magma chamber", "ash cloud"],
+      "worksheet_questions": [
+        ["What is magma?", "Molten rock below Earth's surface."],
+        ["What is lava?", "Magma that has reached Earth's surface."],
+        ["Which volcano part is the main pathway upward?", "The main vent."],
+        ["Name one possible volcanic hazard.", "Lava flows, ash, gases, lahars, or pyroclastic flows."]
+      ],
+      "review_notes": [
+        "This is a simplified Year 4 model of a volcano cross-section.",
+        "Teacher should review local hazard examples before discussing local risk.",
+        "Diagram visuals are deterministic SVG, not AI-generated factual imagery."
+      ]
+    },
+    {
+      "id": "earth-layers",
+      "canonical_topic": "Earth Layers",
+      "match": ["earth's layers", "earth layers", "layers of earth", "layers of the earth", "inside earth", "inside the earth"],
+      "subject": "science",
+      "default_goal": "Students identify Earth's main layers and explain that diagrams are simplified models.",
+      "lesson_slide_template_lane": "diagram_led_concept_deck_v1",
+      "fixture_file": "earth-layers-year5-diagram-led-concept-deck.json",
+      "source_grounding_status": "grounded",
+      "classroom_review_status": "pending_teacher_review",
+      "asset_policy": "deterministic_diagram_first",
+      "diagram_type": "earth_layers_cross_section",
+      "diagram_data_file": "earth-layers-labelled-diagram.json",
+      "diagram_title": "Earth's Layers",
+      "routing_reason": "Earth's Layers is a labelled cross-section topic with clear parts, so the diagram-led lane is preferred.",
+      "sources": [
+        ["USGS: Inside the Earth", "https://pubs.usgs.gov/gip/dynamic/inside.html"],
+        ["USGS: The Interior of the Earth", "https://pubs.usgs.gov/gip/interior/"],
+        ["NASA Science: Facts About Earth", "https://science.nasa.gov/earth/facts/"],
+        ["NASA Space Place: What Is an Earthquake?", "https://spaceplace.nasa.gov/earthquakes/en/"]
+      ],
+      "vocab": ["crust", "mantle", "outer core", "inner core", "model", "layer"],
+      "worksheet_questions": [
+        ["Which layer is the thin outside layer of Earth?", "The crust."],
+        ["Which layer sits below the crust?", "The mantle."],
+        ["Which core layer is liquid?", "The outer core."],
+        ["Why is an Earth's layers diagram a model?", "It simplifies Earth's inside so people can understand the main layers."]
+      ],
+      "review_notes": [
+        "This is a simplified Year 5 model of Earth's layers.",
+        "Layer thickness and shape are adjusted for classroom visibility.",
+        "Diagram visuals are deterministic SVG, not copied from the TeacherGPT reference PDFs."
+      ]
+    },
+    {
+      "id": "fractions",
+      "canonical_topic": "Fractions",
+      "match": ["fraction", "fractions", "fraction worksheet", "fractions worksheet"],
+      "subject": "mathematics",
+      "default_goal": "Students practise representing, comparing, and explaining simple fractions.",
+      "lesson_slide_template_lane": null,
+      "source_grounding_status": "not_required_for_standard_arithmetic",
+      "classroom_review_status": "pending_teacher_review",
+      "asset_policy": "print_first_no_external_assets",
+      "diagram_type": "not_applicable",
+      "routing_reason": "Fractions is currently configured as a print-first mathematics practice pack, so worksheet and homework lanes are preferred.",
+      "default_lanes": ["worksheet", "homework", "answer_key", "source_notes"],
+      "sources": [],
+      "vocab": ["fraction", "numerator", "denominator", "equivalent", "half", "quarter"],
+      "topic_assertion_terms": ["fraction", "numerator", "denominator", "equivalent"],
+      "worksheet_questions": [
+        ["Write the shaded amount as a fraction: 3 parts shaded out of 8 equal parts.", "3/8."],
+        ["Circle the larger fraction: 1/2 or 1/4.", "1/2."],
+        ["Write one fraction equivalent to 1/2.", "2/4, 3/6, 4/8, or another correct equivalent fraction."],
+        ["A pizza is cut into 6 equal slices. Sam eats 2 slices. What fraction did Sam eat?", "2/6, or 1/3 if simplified."],
+        ["Explain what the denominator tells you.", "It tells how many equal parts make the whole."],
+        ["Explain what the numerator tells you.", "It tells how many equal parts are counted or shaded."]
+      ],
+      "review_notes": [
+        "This is standard arithmetic practice and does not require factual source grounding.",
+        "Teacher should check notation and difficulty against the class programme.",
+        "No external image assets are required."
+      ]
+    },
+    {
+      "id": "tsunami",
+      "canonical_topic": "Tsunamis",
+      "match": ["tsunami", "tsunamis", "tsunami diagram", "tsunami worksheet"],
+      "subject": "science",
+      "default_goal": "Students explain that tsunamis are a series of waves caused by sudden movement of water, often after seafloor movement.",
+      "lesson_slide_template_lane": null,
+      "source_grounding_status": "grounded",
+      "classroom_review_status": "pending_teacher_review",
+      "asset_policy": "deterministic_diagram_first",
+      "diagram_type": "tsunami_formation_sequence",
+      "diagram_title": "How a Tsunami Forms",
+      "routing_reason": "Tsunamis is configured as a deterministic process diagram plus reading-response worksheet using NOAA source grounding.",
+      "default_lanes": ["educational_diagram", "worksheet", "answer_key", "source_notes"],
+      "sources": [
+        ["NOAA Tsunami Warning System", "https://www.tsunami.noaa.gov/"],
+        ["NOAA Ocean Service: What is a tsunami?", "https://oceanservice.noaa.gov/facts/tsunami.html"],
+        ["NOAA Science Council: Tsunamis", "https://sciencecouncil.noaa.gov/noaa-by-the-numbers/thematic-areas/environmental-data-and-information/tsunamis/"]
+      ],
+      "vocab": ["tsunami", "seafloor", "earthquake", "wave energy", "shallow water", "coastline"],
+      "topic_assertion_terms": ["tsunami", "tsunamis", "seafloor", "coastline"],
+      "worksheet_questions": [
+        ["What is a tsunami?", "A series of ocean waves caused by sudden movement of water."],
+        ["What can move suddenly before many tsunamis begin?", "The seafloor, often because of an undersea earthquake."],
+        ["Why can tsunami waves grow near land?", "They slow in shallow water and can grow taller."],
+        ["Is a tsunami one wave or a series of waves?", "A series of waves."],
+        ["Name one possible tsunami trigger.", "Undersea earthquake, landslide, volcanic activity, or another sudden water displacement."],
+        ["Why should local safety advice be checked?", "Local hazards and emergency guidance depend on the place and official advice."]
+      ],
+      "review_notes": [
+        "This is a simplified classroom model of tsunami formation.",
+        "Use local civil defence or emergency guidance when discussing real local safety actions.",
+        "Diagram visuals are deterministic SVG, not AI-generated factual imagery."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "fixture_id": "solar-system-year5-photo-led-deck",
+  "about": "solar-system-photo-led-template",
+  "title": "The Solar System",
+  "year_level": "Year 5",
+  "template_lane": "photo_led_lesson_deck_v1",
+  "source_grounding_status": "grounded",
+  "classroom_review_status": "pending_teacher_review",
+  "footer_label": "Solar System · photo_led_lesson_deck_v1 fixture",
+  "assets": {
+    "cover": {
+      "path": "assets/solar-system/solar-system-model-nasa.jpg",
+      "label": "Solar system model image",
+      "credit": "NASA Science",
+      "source": "https://science.nasa.gov/resource/solar-system-model/"
+    },
+    "detail": {
+      "path": "assets/solar-system/solar-system-family-portrait-nasa.jpg",
+      "label": "Solar System family portrait",
+      "credit": "NASA Science",
+      "source": "https://science.nasa.gov/resource/solar-system-family-portrait/"
+    }
+  },
+  "sources": [
+    { "label": "NASA Science: Solar System", "url": "https://science.nasa.gov/solar-system/" },
+    { "label": "NASA Science: Planets", "url": "https://science.nasa.gov/solar-system/planets/" },
+    { "label": "NASA Science: Solar System Model", "url": "https://science.nasa.gov/resource/solar-system-model/" },
+    { "label": "NASA Science: Solar System Family Portrait", "url": "https://science.nasa.gov/resource/solar-system-family-portrait/" },
+    { "label": "NASA: Images and Media Guidelines", "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/" }
+  ],
+  "review_notes": [
+    "Explain that many solar-system visuals are models or composites, not single-camera photos of the entire system.",
+    "Keep NASA image credits visible when adapting the deck.",
+    "Distances and planet sizes are simplified for Year 5."
+  ],
+  "slides": [
+    {
+      "role": "cover",
+      "component": "full_bleed_photo_cover",
+      "kicker": "Year 5 photo-led deck",
+      "title": "The Solar System",
+      "subtitle": "A tour of the Sun, planets, and smaller worlds that share our cosmic neighbourhood.",
+      "badges": ["Sun", "planets", "orbits", "scale"],
+      "image": "cover"
+    },
+    {
+      "role": "learning_goal",
+      "component": "learning_map_three_cards",
+      "kicker": "Learning map",
+      "title": "Understand how the Solar System is organised",
+      "cards": [
+        { "title": "Name", "text": "Identify the Sun and the eight planets." },
+        { "title": "Order", "text": "Describe where planets sit from inner to outer." },
+        { "title": "Explain", "text": "Use gravity and orbit to explain the system." }
+      ],
+      "callout": "Learning intention: explain why the Sun is central and how planets move around it."
+    },
+    {
+      "role": "definition",
+      "component": "source_cited_definition",
+      "kicker": "Core idea",
+      "title": "A system held together by gravity",
+      "lead": "The Solar System includes the Sun and the objects that orbit it: planets, dwarf planets, moons, asteroids, comets, and smaller pieces of space material.",
+      "bullets": [
+        { "title": "Center", "text": "The Sun is the star at the center." },
+        { "title": "Motion", "text": "Planets travel around the Sun in orbits." },
+        { "title": "Scale", "text": "Distances are huge, so classroom diagrams are usually not to scale." }
+      ],
+      "source_note": "Sources: NASA Science Solar System and Planets pages."
+    },
+    {
+      "role": "photo_explain",
+      "component": "split_text_photo",
+      "kicker": "Real source visual",
+      "title": "One image can show the family, but not true scale",
+      "lead": "Official NASA visuals help us inspect the planets, but many Solar System overview images are models or composites because the system is too large for one ordinary photo.",
+      "image": "detail",
+      "caption": "NASA Science family portrait visual.",
+      "source_note": "Source: NASA Science Solar System Family Portrait."
+    },
+    {
+      "role": "key_ideas",
+      "component": "principle_cards",
+      "kicker": "Three organising ideas",
+      "title": "Star, planets, smaller worlds",
+      "cards": [
+        { "title": "The Sun", "text": "A star that gives light and heat and contains most of the Solar System’s mass." },
+        { "title": "The planets", "text": "Eight major worlds orbit the Sun in a regular order." },
+        { "title": "Smaller bodies", "text": "Moons, asteroids, comets, and dwarf planets are part of the system too." }
+      ],
+      "note": "Teacher note: keep Pluto as a dwarf planet, not one of the eight planets.",
+      "source_note": "Sources: NASA Science Solar System and Planets pages."
+    },
+    {
+      "role": "relationship_map",
+      "component": "relationship_map",
+      "kicker": "System map",
+      "title": "Everything connects back to the Sun",
+      "lead": "Gravity keeps planets and smaller worlds moving around the Sun instead of drifting away in straight lines.",
+      "center": { "title": "Sun", "subtitle": "gravity" },
+      "nodes": [
+        { "title": "Mercury", "text": "inner" },
+        { "title": "Earth", "text": "life" },
+        { "title": "Mars", "text": "rocky" },
+        { "title": "Jupiter", "text": "giant" },
+        { "title": "Saturn", "text": "rings" },
+        { "title": "Neptune", "text": "outer" }
+      ]
+    },
+    {
+      "role": "detail_grid",
+      "component": "card_grid",
+      "kicker": "Planet order",
+      "title": "Eight planets orbit the Sun",
+      "lead": "A simple order helps us talk about inner and outer planets.",
+      "items": [
+        { "title": "Mercury", "text": "closest to the Sun" },
+        { "title": "Venus", "text": "hot, thick atmosphere" },
+        { "title": "Earth", "text": "liquid water and life" },
+        { "title": "Mars", "text": "rocky red planet" },
+        { "title": "Jupiter", "text": "largest planet" },
+        { "title": "Saturn", "text": "wide ring system" },
+        { "title": "Uranus", "text": "ice giant, tilted axis" },
+        { "title": "Neptune", "text": "farther known planet" },
+        { "title": "Dwarf planets", "text": "Pluto and others are not counted among the eight planets." }
+      ],
+      "source_note": "Source: NASA Science Planets page."
+    },
+    {
+      "role": "nuance_or_model_warning",
+      "component": "two_column_note",
+      "kicker": "Model warning",
+      "title": "Classroom diagrams usually lie about scale",
+      "lead": "If we draw the planets large enough to see, the distances cannot fit on the same slide. If we draw distances accurately, planets become too tiny to inspect.",
+      "cards": [
+        { "title": "Size problem", "text": "Planets are much smaller than the spaces between them." },
+        { "title": "Distance problem", "text": "The outer planets are far beyond the inner planets." }
+      ],
+      "callout": "Teacher move: ask students what the model helps us see and what it hides.",
+      "source_note": "Source-grounded simplification from NASA Solar System overview."
+    },
+    {
+      "role": "activity",
+      "component": "activity_three_steps",
+      "kicker": "Class activity",
+      "title": "Build a human Solar System model",
+      "steps": [
+        { "label": "Assign", "title": "Give roles", "text": "Students become the Sun, planets, asteroid belt, and a comet." },
+        { "label": "Order", "title": "Line up", "text": "Place planets from Mercury to Neptune and check the order." },
+        { "label": "Reflect", "title": "Spot the limits", "text": "Discuss which parts of the model are accurate and which are simplified." }
+      ],
+      "note": "Optional extension: students estimate which planets need more space in a true scale model."
+    },
+    {
+      "role": "teacher_note",
+      "component": "two_column_note",
+      "kicker": "Teacher note",
+      "title": "Use real images with clear model language",
+      "lead": "NASA images are excellent for source-grounded visuals, but Solar System overview pictures often combine data, scale choices, and artistic layout.",
+      "cards": [
+        { "title": "Say", "text": "This is a NASA visual/model that helps us compare objects." },
+        { "title": "Avoid", "text": "Do not imply one camera photographed all planets together at true scale." }
+      ],
+      "callout": "Source grounding status: grounded; classroom review pending."
+    },
+    {
+      "role": "exit_ticket",
+      "component": "exit_ticket",
+      "kicker": "Exit ticket",
+      "title": "Show your understanding",
+      "prompts": [
+        "The Solar System is...",
+        "The Sun is important because...",
+        "One way diagrams can mislead us is..."
+      ],
+      "challenge": "Challenge: explain why a model can be useful even when it is not perfectly accurate."
+    },
+    {
+      "role": "sources",
+      "component": "source_list_slide",
+      "kicker": "Source grounding",
+      "title": "Sources used",
+      "note": "Image policy: NASA/public source visuals with credits; no AI-generated planet photos."
+    }
+  ]
+}

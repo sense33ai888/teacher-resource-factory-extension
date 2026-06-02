@@ -1,0 +1,30 @@
+{
+  "template_id": "visual_rendering.lesson_slide.photo_led_lesson_deck_v1",
+  "template_lane": "photo_led_lesson_deck_v1",
+  "style_family": "source_grounded_editorial_classroom",
+  "output_targets": ["editable_html", "pdf", "source_notes", "preview_png"],
+  "component_library": [
+    "full_bleed_photo_cover",
+    "learning_map_three_cards",
+    "split_text_photo",
+    "source_cited_definition",
+    "relationship_map",
+    "principle_cards",
+    "card_grid",
+    "two_column_note",
+    "activity_three_steps",
+    "exit_ticket",
+    "source_list_slide"
+  ],
+  "asset_rules": {
+    "real_photo_slots_require_credit": true,
+    "trusted_public_photo_before_ai": true,
+    "ai_generated_cultural_imagery_default": "disallowed",
+    "fallback": "deterministic_svg_or_clean_layout"
+  },
+  "publisher": {
+    "artifact_type": "slides",
+    "requires_ai_original_copy": true
+  }
+}
+

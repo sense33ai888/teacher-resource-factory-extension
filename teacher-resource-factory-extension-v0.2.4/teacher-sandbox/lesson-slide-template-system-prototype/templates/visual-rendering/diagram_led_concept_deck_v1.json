@@ -1,0 +1,27 @@
+{
+  "template_id": "visual_rendering.lesson_slide.diagram_led_concept_deck_v1",
+  "template_lane": "diagram_led_concept_deck_v1",
+  "style_family": "deterministic_diagram_classroom",
+  "output_targets": ["editable_html", "pdf", "source_notes", "preview_png"],
+  "component_library": [
+    "diagram_cover",
+    "learning_map",
+    "concept_definition",
+    "labelled_diagram",
+    "process_steps",
+    "vocabulary_grid",
+    "cause_effect",
+    "two_column_note",
+    "activity_steps",
+    "quick_check",
+    "exit_ticket",
+    "source_list"
+  ],
+  "asset_rules": {
+    "default_visual": "deterministic_svg_diagram",
+    "source_cited_facts_required": true,
+    "ai_generated_factual_diagrams_default": "disallowed",
+    "fallback": "anchor_chart_or_clean_layout"
+  }
+}
+

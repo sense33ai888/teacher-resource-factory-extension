@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Teacher Resource Factory Unified Intake",
+  "type": "object",
+  "required": ["raw_teacher_request", "topic", "year_level", "resource_request"],
+  "properties": {
+    "raw_teacher_request": { "type": "string" },
+    "topic": { "type": "string" },
+    "year_level": { "type": "string" },
+    "subject": { "type": ["string", "null"] },
+    "duration_minutes": { "type": ["number", "null"] },
+    "teaching_goal": { "type": ["string", "null"] },
+    "student_level": { "type": "string" },
+    "difficulty": { "type": "string" },
+    "resource_request": {
+      "oneOf": [
+        { "const": "auto" },
+        { "type": "array", "items": { "type": "string" } }
+      ]
+    },
+    "image_policy": { "type": "string" },
+    "source_policy": { "type": "string" },
+    "output_format": { "type": "string" },
+    "assumptions": { "type": "array", "items": { "type": "string" } }
+  }
+}
+

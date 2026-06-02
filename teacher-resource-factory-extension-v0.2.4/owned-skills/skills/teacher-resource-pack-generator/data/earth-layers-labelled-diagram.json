@@ -1,0 +1,54 @@
+{
+  "diagram_id": "earth-layers-cross-section",
+  "template_id": "labelled_concept_diagram",
+  "source_artifact_id": "source-notes",
+  "title_labelled": "Earth's Layers",
+  "title_blank": "Label Earth's Layers",
+  "labelled_kicker": "Labelled diagram",
+  "blank_kicker": "Labelling worksheet",
+  "aria_label": "Earth's layers cross-section diagram",
+  "labelled_instruction": "Use the labels to connect vocabulary with the main layers inside Earth.",
+  "output": {
+    "directory": "visuals",
+    "labelled_html": "earth-layers-diagram-labelled.html",
+    "labelled_pdf": "earth-layers-diagram-labelled.pdf",
+    "blank_html": "earth-layers-labelling-worksheet.html",
+    "blank_pdf": "earth-layers-labelling-worksheet.pdf"
+  },
+  "view_box": "0 0 1100 720",
+  "base_svg": "<defs><radialGradient id=\"ocean\" cx=\"35%\" cy=\"30%\" r=\"70%\"><stop offset=\"0\" stop-color=\"#71c7f0\"/><stop offset=\"1\" stop-color=\"#1a73a8\"/></radialGradient><radialGradient id=\"mantle\" cx=\"50%\" cy=\"50%\" r=\"70%\"><stop offset=\"0\" stop-color=\"#ffd45c\"/><stop offset=\"1\" stop-color=\"#e86b1e\"/></radialGradient><radialGradient id=\"core\" cx=\"50%\" cy=\"50%\" r=\"70%\"><stop offset=\"0\" stop-color=\"#fff4a3\"/><stop offset=\"1\" stop-color=\"#f59e0b\"/></radialGradient></defs><rect x=\"0\" y=\"0\" width=\"1100\" height=\"720\" fill=\"#e7f6fb\"/><circle cx=\"410\" cy=\"360\" r=\"246\" fill=\"url(#ocean)\" stroke=\"#123a5a\" stroke-width=\"5\"/><path d=\"M410 114 A246 246 0 1 1 410 606 L410 114 Z\" fill=\"#2f9f73\" opacity=\"0.95\"/><path d=\"M410 124 A236 236 0 1 1 410 596 L410 124 Z\" fill=\"#f2b84b\"/><path d=\"M410 175 A185 185 0 1 1 410 545 L410 175 Z\" fill=\"url(#mantle)\"/><path d=\"M410 251 A109 109 0 1 1 410 469 L410 251 Z\" fill=\"#f97316\"/><path d=\"M410 292 A68 68 0 1 1 410 428 L410 292 Z\" fill=\"url(#core)\"/><path d=\"M410 114 L410 606\" stroke=\"#fffdf8\" stroke-width=\"7\"/><path d=\"M410 124 A236 236 0 0 0 410 596\" fill=\"none\" stroke=\"#123a5a\" stroke-width=\"2\" opacity=\"0.4\"/><path d=\"M410 175 A185 185 0 0 0 410 545\" fill=\"none\" stroke=\"#7f2d12\" stroke-width=\"3\" opacity=\"0.4\"/><path d=\"M410 251 A109 109 0 0 0 410 469\" fill=\"none\" stroke=\"#7f2d12\" stroke-width=\"3\" opacity=\"0.45\"/><path d=\"M410 292 A68 68 0 0 0 410 428\" fill=\"none\" stroke=\"#92400e\" stroke-width=\"3\" opacity=\"0.55\"/><circle cx=\"410\" cy=\"360\" r=\"4\" fill=\"#7f1d1d\"/><text x=\"88\" y=\"102\" fill=\"#123a5a\" font-family=\"Arial\" font-size=\"46\" font-weight=\"800\">Earth's Layers</text><text x=\"90\" y=\"646\" fill=\"#476173\" font-family=\"Arial\" font-size=\"22\">Classroom model: layer thicknesses are simplified for visibility.</text>",
+  "labels": [
+    {
+      "id": "crust",
+      "text": "Crust",
+      "line": { "x1": 418, "y1": 128, "x2": 742, "y2": 122 },
+      "box": { "x": 742, "y": 90, "width": 200, "height": 58 },
+      "text_position": { "x": 762, "y": 126 },
+      "callout": { "cx": 418, "cy": 128 }
+    },
+    {
+      "id": "mantle",
+      "text": "Mantle",
+      "line": { "x1": 486, "y1": 240, "x2": 792, "y2": 238 },
+      "box": { "x": 792, "y": 206, "width": 210, "height": 58 },
+      "text_position": { "x": 812, "y": 242 },
+      "callout": { "cx": 486, "cy": 240 }
+    },
+    {
+      "id": "outer-core",
+      "text": "Outer core",
+      "line": { "x1": 501, "y1": 362, "x2": 790, "y2": 360 },
+      "box": { "x": 790, "y": 328, "width": 210, "height": 58 },
+      "text_position": { "x": 810, "y": 364 },
+      "callout": { "cx": 501, "cy": 362 }
+    },
+    {
+      "id": "inner-core",
+      "text": "Inner core",
+      "line": { "x1": 462, "y1": 402, "x2": 748, "y2": 506 },
+      "box": { "x": 748, "y": 474, "width": 220, "height": 58 },
+      "text_position": { "x": 768, "y": 510 },
+      "callout": { "cx": 462, "cy": 402 }
+    }
+  ]
+}

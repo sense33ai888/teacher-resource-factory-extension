@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Teacher Resource Factory Resource Pack",
+  "type": "object",
+  "required": ["factory_version", "pack_id", "topic", "year_level", "lanes", "artifacts", "qa"],
+  "properties": {
+    "factory_version": { "type": "string" },
+    "pack_id": { "type": "string" },
+    "topic": { "type": "string" },
+    "year_level": { "type": "string" },
+    "pack_type": { "type": "string" },
+    "lanes": { "type": "array", "items": { "type": "string" } },
+    "source_grounding_status": { "type": "string" },
+    "classroom_review_status": { "type": "string" },
+    "artifacts": { "type": "array" },
+    "qa": { "type": "object" }
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "template_id": "output_structure.lesson_slide.photo_led_lesson_deck_v1",
+  "output_type": "lesson_slide_deck",
+  "slide_count": 12,
+  "lesson_shape": "photo_led_concept_foundation",
+  "slides": [
+    { "slide": 1, "role": "cover", "component": "full_bleed_photo_cover" },
+    { "slide": 2, "role": "learning_goal", "component": "learning_map_three_cards" },
+    { "slide": 3, "role": "definition", "component": "source_cited_definition" },
+    { "slide": 4, "role": "photo_explain", "component": "split_text_photo" },
+    { "slide": 5, "role": "key_ideas", "component": "principle_cards" },
+    { "slide": 6, "role": "relationship_map", "component": "relationship_map" },
+    { "slide": 7, "role": "detail_grid", "component": "card_grid" },
+    { "slide": 8, "role": "nuance_or_model_warning", "component": "two_column_note" },
+    { "slide": 9, "role": "activity", "component": "activity_three_steps" },
+    { "slide": 10, "role": "teacher_note", "component": "two_column_note" },
+    { "slide": 11, "role": "exit_ticket", "component": "exit_ticket" },
+    { "slide": 12, "role": "sources", "component": "source_list_slide" }
+  ]
+}
+

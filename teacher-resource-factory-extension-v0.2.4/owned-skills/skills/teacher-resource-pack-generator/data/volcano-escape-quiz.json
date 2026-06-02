@@ -1,0 +1,36 @@
+{
+  "game_id": "volcano-escape-quiz",
+  "template_id": "escape_quiz_game",
+  "source_artifact_id": "source-notes",
+  "title": "Volcano Escape Quiz",
+  "kicker": "Escape quiz",
+  "output": {
+    "directory": "games",
+    "game_html": "volcano-escape-quiz.html",
+    "printable_html": "volcano-escape-quiz-printable.html",
+    "printable_pdf": "volcano-escape-quiz-printable.pdf"
+  },
+  "timer_seconds": {
+    "easy": 720,
+    "core": 600,
+    "challenge": 480
+  },
+  "scene_svg": "<svg viewBox=\"0 0 900 560\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"gameSky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#dff0f0\" /><stop offset=\"1\" stop-color=\"#fffdf8\" /></linearGradient><linearGradient id=\"gameLava\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffd45c\" /><stop offset=\"1\" stop-color=\"#ef7d22\" /></linearGradient></defs><rect width=\"900\" height=\"560\" rx=\"8\" fill=\"url(#gameSky)\" /><rect y=\"460\" width=\"900\" height=\"100\" fill=\"#d9e5d8\" /><path d=\"M190 460 L450 116 L712 460 Z\" fill=\"#8d735d\" stroke=\"#5b4b40\" stroke-width=\"4\" /><path d=\"M416 460 C420 392 416 300 440 210 C444 186 448 156 450 128 C456 160 462 186 468 212 C492 306 494 392 496 460 Z\" fill=\"url(#gameLava)\" stroke=\"#8f2e1d\" stroke-width=\"3\" /><ellipse cx=\"450\" cy=\"126\" rx=\"54\" ry=\"22\" fill=\"#5f4035\" stroke=\"#352821\" stroke-width=\"4\" /><path d=\"M488 158 C544 180 562 238 596 276 C636 322 688 330 742 368\" fill=\"none\" stroke=\"#ef7d22\" stroke-width=\"18\" stroke-linecap=\"round\" /><path d=\"M326 460 C384 420 436 430 482 452 C530 474 586 420 650 460 Z\" fill=\"#ef7d22\" stroke=\"#8f2e1d\" stroke-width=\"3\" /><g fill=\"#9ba5a6\" opacity=\"0.75\"><path d=\"M370 58 C342 34 364 10 402 24 C420 -8 480 0 490 32 C546 20 574 58 548 92 C568 126 516 148 482 126 C448 154 390 132 408 98 C380 102 354 84 370 58 Z\" /><circle cx=\"416\" cy=\"50\" r=\"9\" fill=\"#000\" opacity=\"0.9\" /><circle cx=\"486\" cy=\"44\" r=\"8\" fill=\"#000\" opacity=\"0.9\" /><circle cx=\"520\" cy=\"88\" r=\"7\" fill=\"#000\" opacity=\"0.9\" /></g></svg>",
+  "questions": [
+    { "prompt": "What is melted rock called while it is still under the ground?", "options": ["Magma", "Lava", "Ash", "Crater"], "answer": "Magma", "hint": "It becomes lava only after it reaches the surface.", "difficulty": "easy" },
+    { "prompt": "What is melted rock called after it reaches the surface?", "options": ["Lava", "Magma", "Vent", "Ash"], "answer": "Lava", "hint": "This word starts with L.", "difficulty": "easy" },
+    { "prompt": "Which part is the opening at the top of many volcanoes?", "options": ["Crater", "Magma chamber", "Ash cloud", "Lava flow"], "answer": "Crater", "hint": "It is near the top.", "difficulty": "easy" },
+    { "prompt": "What can escape during an eruption?", "options": ["Lava, ash, and gas", "Ice, snow, and rain", "Sand only", "Fresh water only"], "answer": "Lava, ash, and gas", "hint": "Think of hot rock and material thrown into the air.", "difficulty": "easy" },
+    { "prompt": "Where does magma collect before it rises through a volcano?", "options": ["Magma chamber", "Crater", "Ash cloud", "Lava field"], "answer": "Magma chamber", "hint": "The word chamber means a storage space.", "difficulty": "core" },
+    { "prompt": "What is the path magma travels through called in this lesson?", "options": ["Vent", "Cloud", "Soil", "River"], "answer": "Vent", "hint": "It is the route up through the volcano.", "difficulty": "core" },
+    { "prompt": "Which event usually happens first in the eruption sequence?", "options": ["Magma collects underground", "Lava cools into rock", "Ash settles on the ground", "A crater disappears"], "answer": "Magma collects underground", "hint": "Start below the surface.", "difficulty": "core" },
+    { "prompt": "Why can an ash cloud be dangerous?", "options": ["It can make air hard to breathe", "It turns all rocks into ice", "It makes the sun brighter", "It removes all wind"], "answer": "It can make air hard to breathe", "hint": "Tiny pieces in the air can affect breathing and visibility.", "difficulty": "core" },
+    { "prompt": "Which statement best compares magma and lava?", "options": ["They are melted rock in different places", "They are two names for ash", "Magma is cold and lava is ice", "Lava is always underground"], "answer": "They are melted rock in different places", "hint": "Location is the key idea.", "difficulty": "core" },
+    { "prompt": "How can lava change the land after an eruption?", "options": ["It can cool and become new rock", "It can turn into ocean water only", "It removes every mountain", "It stops gravity"], "answer": "It can cool and become new rock", "hint": "Hot melted rock can harden.", "difficulty": "core" },
+    { "prompt": "Which label belongs closest to the underground melted rock storage area?", "options": ["Magma chamber", "Ash cloud", "Crater", "Lava flow"], "answer": "Magma chamber", "hint": "It is below the volcano.", "difficulty": "challenge" },
+    { "prompt": "Which label belongs near material moving down the side of the volcano?", "options": ["Lava flow", "Crater", "Magma chamber", "Ash cloud"], "answer": "Lava flow", "hint": "It is on the surface.", "difficulty": "challenge" },
+    { "prompt": "Which explanation is the most precise?", "options": ["Pressure can push magma upward through a vent", "Rain pushes ash into magma", "A crater always starts underground", "Lava is melted rock before it erupts"], "answer": "Pressure can push magma upward through a vent", "hint": "Look for the statement that matches the eruption sequence.", "difficulty": "challenge" },
+    { "prompt": "A scientist says, 'The same melted rock changed names.' What do they probably mean?", "options": ["Magma became lava at the surface", "Ash became a crater", "A vent became gas", "A cloud became magma"], "answer": "Magma became lava at the surface", "hint": "The name changes when the melted rock comes out.", "difficulty": "challenge" },
+    { "prompt": "Which set of labels best fits a simple volcano cross-section?", "options": ["Magma chamber, vent, crater, lava flow, ash cloud", "Moon, tide, glacier, orbit, crater", "Stem, root, leaf, seed, flower", "Compass, scale, legend, key, border"], "answer": "Magma chamber, vent, crater, lava flow, ash cloud", "hint": "Choose the set from the volcano diagram.", "difficulty": "challenge" }
+  ]
+}

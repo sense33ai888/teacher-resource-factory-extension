@@ -1,0 +1,78 @@
+{
+  "factory_version": "0.2.4",
+  "default_pack_type": "lesson_pack_core",
+  "lanes": {
+    "lesson_slide": {
+      "status": "implemented_lane_module",
+      "template_lane": ["photo_led_lesson_deck_v1", "diagram_led_concept_deck_v1"],
+      "module": "lanes/lesson-slide/index.mjs",
+      "renderer": [
+        "../lesson-slide-template-system-prototype/renderers/html/render-photo-led-lesson-deck.mjs",
+        "../lesson-slide-template-system-prototype/renderers/html/render-diagram-led-concept-deck.mjs"
+      ],
+      "maturity": "v0_2_core"
+    },
+    "worksheet": {
+      "status": "implemented_lane_module",
+      "template_lane": "print_first_worksheet_v0",
+      "module": "lanes/worksheet/index.mjs",
+      "maturity": "v0_2_core"
+    },
+    "educational_diagram": {
+      "status": "implemented_lane_module",
+      "template_lane": ["simple_svg_diagram_v0", "labelled_concept_diagram_v1"],
+      "module": "lanes/educational-diagram/index.mjs",
+      "maturity": "v0_2_core"
+    },
+    "homework": {
+      "status": "implemented_lane_module",
+      "template_lane": "print_first_homework_v0",
+      "module": "lanes/worksheet/index.mjs",
+      "maturity": "v0_2_core"
+    },
+    "exit_ticket": {
+      "status": "implemented_lane_module",
+      "template_lane": "print_first_exit_ticket_v0",
+      "module": "lanes/worksheet/index.mjs",
+      "maturity": "v0_2_core",
+      "published_type": "exit-ticket"
+    },
+    "labelling_worksheet": {
+      "status": "implemented_lane_module",
+      "template_lane": "labelling_worksheet_v1",
+      "module": "lanes/educational-diagram/index.mjs",
+      "maturity": "v0_2_core",
+      "emitted_by": "educational_diagram"
+    },
+    "answer_key": {
+      "status": "implemented",
+      "template_lane": "teacher_answer_key_v0",
+      "maturity": "v0_2_support"
+    },
+    "teacher_notes": {
+      "status": "implemented",
+      "template_lane": "compact_teacher_notes_v0",
+      "maturity": "v0_2_support"
+    },
+    "source_notes": {
+      "status": "implemented",
+      "template_lane": "source_notes_v0",
+      "maturity": "v0_2_support"
+    },
+    "game": {
+      "status": "deferred_v0_3",
+      "template_lane": "projector_quiz_game_v1",
+      "maturity": "out_of_scope_v0_2"
+    },
+    "lesson_series": {
+      "status": "deferred_v0_3",
+      "template_lane": "lesson_series_shell_v1",
+      "maturity": "out_of_scope_v0_2"
+    },
+    "poster": {
+      "status": "deferred_v0_3",
+      "template_lane": ["vocabulary_poster_v1", "safety_poster_v1"],
+      "maturity": "out_of_scope_v0_2"
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "fixture_id": "earth-layers-year5-diagram-led-concept-deck",
+  "about": "earth-layers-diagram-led-template",
+  "title": "Earth's Layers",
+  "year_level": "Year 5",
+  "template_lane": "diagram_led_concept_deck_v1",
+  "source_grounding_status": "grounded",
+  "classroom_review_status": "pending_teacher_review",
+  "footer_label": "Earth's Layers - diagram_led_concept_deck_v1 baseline",
+  "diagram_data_path": "../../owned-skills/skills/teacher-resource-pack-generator/data/earth-layers-labelled-diagram.json",
+  "sources": [
+    {
+      "label": "USGS: Inside the Earth",
+      "url": "https://pubs.usgs.gov/gip/dynamic/inside.html"
+    },
+    {
+      "label": "USGS: The Interior of the Earth",
+      "url": "https://pubs.usgs.gov/gip/interior/"
+    },
+    {
+      "label": "NASA Science: Facts About Earth",
+      "url": "https://science.nasa.gov/earth/facts/"
+    },
+    {
+      "label": "NASA Space Place: What Is an Earthquake?",
+      "url": "https://spaceplace.nasa.gov/earthquakes/en/"
+    }
+  ],
+  "review_notes": [
+    "This is a simplified Year 5 model of Earth's layers.",
+    "Layer thickness and shape are adjusted for classroom visibility.",
+    "Diagram visuals are deterministic SVG, not copied from the TeacherGPT reference PDFs."
+  ],
+  "slides": [
+    {
+      "role": "cover",
+      "component": "diagram_cover",
+      "kicker": "Year 5 science concept deck",
+      "title": "Earth's Layers",
+      "subtitle": "A diagram-led lesson about the crust, mantle, outer core, and inner core.",
+      "badges": ["crust", "mantle", "outer core", "inner core"]
+    },
+    {
+      "role": "learning_goal",
+      "component": "learning_map",
+      "kicker": "Learning map",
+      "title": "Understand Earth's main layers and what each layer is like",
+      "cards": [
+        { "title": "Name", "text": "Identify the crust, mantle, outer core, and inner core." },
+        { "title": "Describe", "text": "Use simple properties such as solid, liquid, hot, and rocky." },
+        { "title": "Connect", "text": "Explain why a diagram is a model, not Earth at true scale." }
+      ],
+      "callout": "Learning intention: use a cross-section model to describe Earth's internal layers."
+    },
+    {
+      "role": "definition",
+      "component": "concept_definition",
+      "kicker": "Core idea",
+      "title": "Earth has layers inside it",
+      "lead": "Scientists use evidence and models to describe Earth's inside because we cannot travel all the way to the centre.",
+      "bullets": [
+        { "title": "Crust", "text": "The thin outer rock layer where we live." },
+        { "title": "Mantle", "text": "A very thick layer of hot rock below the crust." },
+        { "title": "Core", "text": "The central part of Earth, split into outer and inner core." }
+      ],
+      "source_note": "Source-grounded summary from USGS and NASA education pages."
+    },
+    {
+      "role": "labelled_diagram",
+      "component": "labelled_diagram",
+      "kicker": "Diagram anchor",
+      "title": "Earth cross-section",
+      "lead": "Use the labels to connect each vocabulary word with its position inside Earth.",
+      "source_note": "Deterministic SVG model; not to scale."
+    },
+    {
+      "role": "process",
+      "component": "process_steps",
+      "kicker": "Read the model",
+      "title": "From the outside toward the centre",
+      "steps": [
+        { "title": "Start at the crust", "text": "The crust is the thin outside layer of solid rock." },
+        { "title": "Move through the mantle", "text": "The mantle is much thicker and made of very hot rock." },
+        { "title": "Reach the core", "text": "The outer core surrounds the solid inner core near Earth's centre." }
+      ]
+    },
+    {
+      "role": "vocabulary",
+      "component": "vocabulary_grid",
+      "kicker": "Vocabulary",
+      "title": "Words that unlock the diagram",
+      "items": [
+        { "title": "Crust", "text": "The thin outer layer of Earth." },
+        { "title": "Mantle", "text": "A thick layer of hot rock below the crust." },
+        { "title": "Outer core", "text": "A very hot liquid layer around the inner core." },
+        { "title": "Inner core", "text": "A very hot solid centre of Earth." },
+        { "title": "Model", "text": "A simplified representation that helps us understand something." },
+        { "title": "Layer", "text": "One part arranged above or below another part." }
+      ]
+    },
+    {
+      "role": "cause_effect",
+      "component": "cause_effect",
+      "kicker": "Use the model",
+      "title": "What the layers help us explain",
+      "pairs": [
+        { "cause": "Thin crust", "effect": "Earth's surface is only a small part of the whole planet." },
+        { "cause": "Hot mantle", "effect": "Heat inside Earth helps drive slow movement over long times." },
+        { "cause": "Core layers", "effect": "The core is part of how scientists explain Earth's deep interior." }
+      ],
+      "source_note": "Keep explanations age-appropriate; this is a Year 5 model."
+    },
+    {
+      "role": "misconceptions",
+      "component": "two_column_note",
+      "kicker": "Model warning",
+      "title": "The diagram helps, but it is simplified",
+      "lead": "A classroom diagram makes hidden layers visible. It does not show true thickness, temperature, or movement exactly.",
+      "cards": [
+        { "title": "Useful", "text": "It shows the order of the layers clearly." },
+        { "title": "Limited", "text": "It changes scale and shape so students can see the parts." }
+      ]
+    },
+    {
+      "role": "guided_activity",
+      "component": "activity_steps",
+      "kicker": "Class activity",
+      "title": "Read the diagram like a scientist",
+      "steps": [
+        { "label": "Locate", "title": "Find each layer", "text": "Point to the crust, mantle, outer core, and inner core." },
+        { "label": "Compare", "title": "Use two properties", "text": "Describe two layers using words such as thin, thick, solid, liquid, hot, or rocky." },
+        { "label": "Explain", "title": "Spot the model limits", "text": "Explain one way the diagram is simplified." }
+      ]
+    },
+    {
+      "role": "quick_check",
+      "component": "quick_check",
+      "kicker": "Quick check",
+      "title": "Check the concept",
+      "questions": [
+        { "q": "Which layer is the thin outside layer?", "a": "The crust." },
+        { "q": "Which layer sits below the crust?", "a": "The mantle." },
+        { "q": "Why is this diagram called a model?", "a": "It simplifies Earth so we can understand the layers." }
+      ]
+    },
+    {
+      "role": "exit_ticket",
+      "component": "exit_ticket",
+      "kicker": "Exit ticket",
+      "title": "Show your understanding",
+      "prompts": [
+        "One Earth layer I can identify is...",
+        "The mantle is...",
+        "One way this diagram is simplified is..."
+      ],
+      "challenge": "Challenge: explain why scientists use models for things we cannot directly see."
+    },
+    {
+      "role": "sources",
+      "component": "source_list",
+      "kicker": "Source grounding",
+      "title": "Sources used",
+      "note": "Visual policy: deterministic SVG diagram; no copied TeacherGPT PDF artwork."
+    }
+  ]
+}

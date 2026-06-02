@@ -1,0 +1,62 @@
+{
+  "diagram_id": "volcano-cross-section",
+  "template_id": "labelled_concept_diagram",
+  "source_artifact_id": "source-notes",
+  "title_labelled": "Volcano Cross-Section",
+  "title_blank": "Label The Volcano",
+  "labelled_kicker": "Labelled diagram",
+  "blank_kicker": "Labelling worksheet",
+  "aria_label": "Volcano cross-section diagram",
+  "output": {
+    "directory": "visuals",
+    "labelled_html": "volcano-diagram-labelled.html",
+    "labelled_pdf": "volcano-diagram-labelled.pdf",
+    "blank_html": "volcano-labelling-worksheet.html",
+    "blank_pdf": "volcano-labelling-worksheet.pdf"
+  },
+  "view_box": "0 0 1100 720",
+  "base_svg": "<defs><linearGradient id=\"sky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#dff0f0\" /><stop offset=\"1\" stop-color=\"#fffdf8\" /></linearGradient><linearGradient id=\"lava\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#ffd45c\" /><stop offset=\"0.58\" stop-color=\"#ef7d22\" /><stop offset=\"1\" stop-color=\"#b33a20\" /></linearGradient></defs><rect x=\"0\" y=\"0\" width=\"1100\" height=\"720\" fill=\"url(#sky)\" /><rect x=\"0\" y=\"592\" width=\"1100\" height=\"128\" fill=\"#d9e5d8\" /><path d=\"M210 592 L500 176 L792 592 Z\" fill=\"#8d735d\" stroke=\"#5b4b40\" stroke-width=\"4\" /><path d=\"M318 592 L500 224 L680 592 Z\" fill=\"#a98d73\" opacity=\"0.72\" /><path d=\"M462 592 C466 500 462 408 486 314 C492 284 496 256 500 218 C506 258 512 284 520 316 C548 424 548 506 550 592 Z\" fill=\"url(#lava)\" stroke=\"#8f2e1d\" stroke-width=\"3\" /><ellipse cx=\"500\" cy=\"198\" rx=\"58\" ry=\"22\" fill=\"#5f4035\" stroke=\"#352821\" stroke-width=\"4\" /><path d=\"M534 232 C588 256 602 306 636 350 C670 392 724 404 766 430\" fill=\"none\" stroke=\"#ef7d22\" stroke-width=\"18\" stroke-linecap=\"round\" /><path d=\"M326 592 C366 548 424 534 486 560 C548 586 602 542 676 592 Z\" fill=\"#ef7d22\" opacity=\"0.92\" stroke=\"#8f2e1d\" stroke-width=\"3\" /><g class=\"ash\"><path d=\"M410 92 C376 60 398 28 448 46 C468 12 532 18 542 54 C602 42 638 82 604 122 C626 158 568 184 530 158 C492 190 430 166 448 128 C420 130 394 116 410 92 Z\" fill=\"#8b9395\" opacity=\"0.72\" /><circle cx=\"454\" cy=\"76\" r=\"12\" /><circle cx=\"530\" cy=\"64\" r=\"10\" /><circle cx=\"570\" cy=\"124\" r=\"8\" /></g>",
+  "labels": [
+    {
+      "id": "crater",
+      "text": "Crater",
+      "line": { "x1": 500, "y1": 198, "x2": 290, "y2": 120 },
+      "box": { "x": 70, "y": 84, "width": 220, "height": 54 },
+      "text_position": { "x": 90, "y": 118 },
+      "callout": { "cx": 500, "cy": 198 }
+    },
+    {
+      "id": "main-vent",
+      "text": "Main vent",
+      "line": { "x1": 518, "y1": 330, "x2": 814, "y2": 218 },
+      "box": { "x": 814, "y": 184, "width": 230, "height": 58 },
+      "text_position": { "x": 834, "y": 220 },
+      "callout": { "cx": 518, "cy": 330 }
+    },
+    {
+      "id": "magma-chamber",
+      "text": "Magma chamber",
+      "line": { "x1": 500, "y1": 570, "x2": 226, "y2": 580 },
+      "box": { "x": 48, "y": 548, "width": 180, "height": 58 },
+      "text_position": { "x": 68, "y": 584 },
+      "callout": { "cx": 500, "cy": 570 }
+    },
+    {
+      "id": "lava-flow",
+      "text": "Lava flow",
+      "line": { "x1": 638, "y1": 356, "x2": 840, "y2": 356 },
+      "box": { "x": 840, "y": 326, "width": 170, "height": 58 },
+      "text_position": { "x": 860, "y": 362 },
+      "callout": { "cx": 638, "cy": 356 }
+    },
+    {
+      "id": "ash-cloud",
+      "text": "Ash cloud",
+      "line": { "x1": 500, "y1": 96, "x2": 750, "y2": 86 },
+      "box": { "x": 750, "y": 56, "width": 170, "height": 58 },
+      "text_position": { "x": 770, "y": 92 },
+      "callout": { "cx": 500, "cy": 96 }
+    }
+  ]
+}
+
